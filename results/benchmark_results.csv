@@ -1,0 +1,8 @@
+Dataset,Original Size (B),Compressed Size (B),Compression Ratio,Space Savings (%),Unique Chars,Encode Time (ms),Decode Time (ms),Peak Memory (KB),Lossless Verified
+01_prose_1kb.txt,1024,816,0.7969,20.31,38,1.074,2.494,50.97,PASS
+02_prose_10kb.txt,10240,5951,0.5812,41.88,38,3.848,22.871,165.43,PASS
+03_prose_100kb.txt,102400,57270,0.5593,44.07,38,58.063,219.332,1546.89,PASS
+04_prose_500kb.txt,512000,285363,0.5573,44.27,38,269.13,1101.551,7364.24,PASS
+05_repetitive_100kb.txt,102400,24362,0.2379,76.21,4,43.909,126.783,1272.41,PASS
+06_random_50kb.txt,51200,43070,0.8412,15.88,95,18.123,140.789,932.8,PASS
+07_unicode_multilingual.txt,34600,14572,0.4212,57.88,58,10.76,50.752,419.31,PASS
